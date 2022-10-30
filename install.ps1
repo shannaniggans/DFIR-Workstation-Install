@@ -49,7 +49,6 @@ New-Item ${Env:UserProfile}\"Desktop\DFIR\Tools\EZTools" -ItemType Directory
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 
 # Download our toolset from choco community
-choco install virtualbox-guest-additions-guest.install -y
 choco install wsl -y
 choco install notepadplusplus -y
 choco install autopsy -y
